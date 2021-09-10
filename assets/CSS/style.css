@@ -12,7 +12,8 @@ body{
     height: 100vh;
     background-color: #FFE53B;
     background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
-
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'Oswald', Arial, Helvetica, sans-serif;
 }
 
@@ -69,6 +70,11 @@ body{
 
 .container .content .forms .icon i{
     margin: 10px;
+    color: white;
+}
+
+.container .content .forms .icon i:hover{
+    color: black;
 }
 
 
@@ -85,6 +91,7 @@ body{
    color: white;            
    border: transparent;
    border-radius: 5px;
+   cursor: pointer;
    display: block;
  }
 
